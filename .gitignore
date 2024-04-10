@@ -2,3 +2,4 @@ Project.uvguix.Владимир
 RTE/
 DebugConfig/
 STM32H745ZI_Nucleo_CM7/
+.gitignore
