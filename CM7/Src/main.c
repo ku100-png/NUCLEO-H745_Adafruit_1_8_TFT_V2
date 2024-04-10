@@ -25,7 +25,6 @@
 
 
 
-
 /** @addtogroup STM32H7xx_HAL_Demonstrations
   * @{
   */
