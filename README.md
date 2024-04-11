@@ -1,7 +1,9 @@
 # NUCLEO-H745_Adafruit_1_8_TFT_V2
  
 Add support for the newer Adafruit 1.8" TFT Shield V2 on the NUCLEO-H745-ZI-Q. The examples previously only supported the older V1 board which is no longer available. The V2 board adds an I2C expander to access the joystick, buttons and LCD backlight and reset IO. The expander is called the seesaw and the driver has been ported into a separate component under Drivers\BSP\Components. <br>
+<br>
 This shield is a useful addition to the Nucleo ecosystem for building prototypes where user interaction would be helpful. <br>
+<br>
 ![NUCLEO-H745](https://github.com/ku100-png/NUCLEO-H745_Adafruit_1_8_TFT_V2/blob/main/IMG_NUCLEO-H745.jpg)
 
 <br>
