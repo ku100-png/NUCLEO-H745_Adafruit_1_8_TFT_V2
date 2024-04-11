@@ -26,7 +26,7 @@ This project base on the CubeMX "Demonstration" example that locate in STM32Cube
 A Keil MDK-ARM IDE project has been created for NUCLEO-H745ZI-Q\Demonstrations. Import this project into your workspace, build and debug it. The display will show a menu requiring use of the joystick to select the picture mode.
 In the project add support buttons A,B,C on the Adafruit 1.8" TFT Shield V2. In manual mode push button A turn on LED1 on the NUCLEO boad, push button B turn off LED1, push button C toggle LED3.
 <br>
-Integrating into another project
+Integrating into another project: <br>
 Add USE_ADAFRUIT_SHIELD_V2 to the IDE preprocessor defines. <br>
 Add BSP/Components/adafruit_seesaw/adafruit_seesaw.c to the project. <br>
 Ensure HAL_I2C_MODULE_ENABLED is set in stm32l0xx_hal_conf.h and that stm32l0xx_hal_i2c.c is part of the build. <br>
