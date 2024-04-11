@@ -15,7 +15,6 @@ to the appropriate digital I/O pins to route SPI from the Nucleo to the TFT-disp
 free holes marked D11,D12,D13 at the top and connect then to 6-pin header to pin4, pin1 and pin3, looking up at the image.
 Lastly, attach the shield to a NUCLEO-H745-ZI-Q.
 <br>
-
 A FAT(32) formatted SD-card hosting 128w x 160h RGB565 BMP images is required. These images can be copied from \Media folder. 
 It is more difficult to create your own RBG565 image data. Use Photoshop program or online converter to bmp files of the correct 16-bit RGB565 format (https://online-converting.com/image/convert2bmp/). 
 The image file names must be 11-character maximum and sit in the root directory. Max count of .bmp files on SD card is 25.
@@ -28,9 +27,9 @@ A Keil MDK-ARM IDE project has been created for NUCLEO-H745ZI-Q\Demonstrations. 
 In the project add support buttons A,B,C on the Adafruit 1.8" TFT Shield V2. In manual mode push button A turn on LED1 on the NUCLEO boad, push button B turn off LED1, push button C toggle LED3.
 <br>
 Integrating into another project
-Add USE_ADAFRUIT_SHIELD_V2 to the IDE preprocessor defines.
-Add BSP/Components/adafruit_seesaw/adafruit_seesaw.c to the project.
-Ensure HAL_I2C_MODULE_ENABLED is set in stm32l0xx_hal_conf.h and that stm32l0xx_hal_i2c.c is part of the build.
+Add USE_ADAFRUIT_SHIELD_V2 to the IDE preprocessor defines. <br>
+Add BSP/Components/adafruit_seesaw/adafruit_seesaw.c to the project. <br>
+Ensure HAL_I2C_MODULE_ENABLED is set in stm32l0xx_hal_conf.h and that stm32l0xx_hal_i2c.c is part of the build. <br>
 Add two files: fatfs_sd.c and fatfs_sd.h from https://github.com/eziya for work with SD card.
 <br>
 
