@@ -52,7 +52,6 @@ typedef enum
 
 #define HSEM_ID_0 (0U) /* HW semaphore 0*/
 
-
 // ============================================================================
 #define    DWT_CYCCNT    *(volatile uint32_t *)0xE0001004
 #define    DWT_CONTROL   *(volatile uint32_t *)0xE0001000
